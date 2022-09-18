@@ -26,8 +26,8 @@ const Collabs = () => {
         </h1>
 
         <div className="app__collabs">
-          {data.collabs.map((data) => (
-            <AwardCard collabs={data} key={data.title} />
+          {data.collabs.map((data, i) => (
+            <AwardCard collabs={data} key={Math.random() + 1} />
           ))}
         </div>
       </div>

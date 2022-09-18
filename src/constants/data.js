@@ -77,9 +77,9 @@ const collabs = [
     subtitle: 'Lorem ipsum dolor sit amet, consectetur.',
   },
 ];
-
-export default {
+const datas = {
   subsidiary,
   airJordan,
-  collabs
+  collabs,
 };
+export default datas;

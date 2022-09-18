@@ -19,7 +19,7 @@ import shoe4 from '../assets/shoe4.webp';
 import shoe5 from '../assets/shoe5.webp';
 import shoe6 from '../assets/shoe6.webp';
 import shoe7 from '../assets/shoe7.webp';
-export default {
+const $images = {
   jordan,
   J,
   founder,
@@ -35,10 +35,11 @@ export default {
   award03,
   award05,
   shoe1,
-shoe2,
-shoe3,
-shoe4,
-shoe5,
-shoe6,
-shoe7,
+  shoe2,
+  shoe3,
+  shoe4,
+  shoe5,
+  shoe6,
+  shoe7,
 };
+export default $images
