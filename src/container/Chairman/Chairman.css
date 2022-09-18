@@ -1,0 +1,50 @@
+.app__chairman-content {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+
+  margin-top: 5rem;
+}
+.app__chairman-content blockquote {
+  quotes: '\201C''\201D''\2018''\2019';
+}
+blockquote:before {
+  color: #ccc;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+
+.app__chairman-sign {
+  width: 100%;
+  margin-top: 3rem;
+}
+
+.app__chairman-sign p:first-child {
+  font-family: var(--secondary-text);
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 41.6px;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  color: var(--secondary-color);
+}
+
+.app__chairman-sign img {
+  width: 250px;
+  margin-top: 3rem;
+}
+
+@media screen and (min-width: 2000px) {
+  .app__chairman-sign img {
+    width: 370px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .app__chairman-sign img {
+    width: 80%;
+  }
+}

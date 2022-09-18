@@ -1,0 +1,6 @@
+.app__header {
+  background-color: var(--light-blue);
+}
+.app__header img {
+  width: 80%;
+}
